@@ -50,7 +50,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
-          console.log(user);
+          // console.log(user);
           updateProfile(user, {
             displayName: name.current.value,
             photoURL: USER_LOGO
@@ -80,7 +80,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          console.log(user);
+          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -96,7 +96,7 @@ const Login = () => {
       <div className="absolute">
         <img
           style={{ width: "300vh", height: "100vh" }}
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/fe1147dd-78be-44aa-a0e5-2d2994305a13/IN-en-20231016-popsignuptwoweeks-perspective_alpha_website_medium.jpg"
+          src="https://cdn.wallpapersafari.com/28/72/eMnp5F.jpg"
           alt="background"
         />
       </div>
