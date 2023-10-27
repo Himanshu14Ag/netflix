@@ -11,6 +11,7 @@ import auth from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 import { USER_LOGO } from "../utils/constants";
+import { BACKGROUND_IMG } from "../utils/constants";
 
 
 
@@ -96,7 +97,7 @@ const Login = () => {
       <div className="absolute">
         <img
           style={{ width: "300vh", height: "100vh" }}
-          src="https://cdn.wallpapersafari.com/28/72/eMnp5F.jpg"
+          src={BACKGROUND_IMG}
           alt="background"
         />
       </div>
