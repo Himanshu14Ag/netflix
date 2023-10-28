@@ -23,3 +23,5 @@ export const LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
   { identifier: "japanese", name: "Japanese" },
 ];
+
+export const OPENAI_KEY = "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";
