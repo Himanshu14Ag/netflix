@@ -24,4 +24,4 @@ export const LANGUAGES = [
   { identifier: "japanese", name: "Japanese" },
 ];
 
-export const OPENAI_KEY = "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";
+export const OPENAI_KEY = "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";
